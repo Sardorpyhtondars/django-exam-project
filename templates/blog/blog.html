@@ -3,7 +3,7 @@
 <html lang="en">
 
 
-<!-- molla/faq.html  22 Nov 2019 10:04:03 GMT -->
+<!-- molla/blog.html  22 Nov 2019 10:04:05 GMT -->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,6 +26,7 @@
     <meta name="theme-color" content="#ffffff">
     <!-- Plugins CSS File -->
     <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/plugins/owl-carousel/owl.carousel.css' %}">
     <!-- Main CSS File -->
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
@@ -64,9 +65,9 @@
                                 <a href="#">Links</a>
                                 <ul>
                                     <li><a href="tel:#"><i class="icon-phone"></i>Call: +0123 456 789</a></li>
-                                    <li><a href="wishlist.html"><i class="icon-heart-o"></i>Wishlist <span>(3)</span></a></li>
-                                    <li><a href="about.html">About Us</a></li>
-                                    <li><a href="contact.html">Contact Us</a></li>
+                                    <li><a href="../cart/wishlist.html"><i class="icon-heart-o"></i>Wishlist <span>(3)</span></a></li>
+                                    <li><a href="../shared/about.html">About Us</a></li>
+                                    <li><a href="../shared/contact.html">Contact Us</a></li>
                                     <li><a href="#signin-modal" data-toggle="modal"><i class="icon-user"></i>Login</a></li>
                                 </ul>
                             </li>
@@ -83,14 +84,14 @@
                             <i class="icon-bars"></i>
                         </button>
 
-                        <a href="index.html" class="logo">
+                        <a href="../store/index.html" class="logo">
                             <img src="{% static 'images/logo.png' %}" alt="Molla Logo" width="105" height="25">
                         </a>
 
                         <nav class="main-nav">
                             <ul class="menu sf-arrows">
                                 <li class="megamenu-container active">
-                                    <a href="index.html" class="sf-with-ul">Home</a>
+                                    <a href="../store/index.html" class="sf-with-ul">Home</a>
 
                                     <div class="megamenu demo">
                                         <div class="menu-col">
@@ -259,7 +260,7 @@
                                                 </div><!-- End .demo-item -->
 
                                                 <div class="demo-item hidden">
-                                                    <a href="home.html">
+                                                    <a href="../shared/home.html">
                                                         <span class="demo-bg" style="background-image: url(assets/images/menu/demos/24.jpg);"></span>
                                                         <span class="demo-title">24 - extreme sport store</span>
                                                     </a>
@@ -274,7 +275,7 @@
                                     </div><!-- End .megamenu -->
                                 </li>
                                 <li>
-                                    <a href="category.html" class="sf-with-ul">Shop</a>
+                                    <a href="../store/category.html" class="sf-with-ul">Shop</a>
 
                                     <div class="megamenu megamenu-md">
                                         <div class="row no-gutters">
@@ -286,7 +287,7 @@
                                                             <ul>
                                                                 <li><a href="category-list.html">Shop List</a></li>
                                                                 <li><a href="category-2cols.html">Shop Grid 2 Columns</a></li>
-                                                                <li><a href="category.html">Shop Grid 3 Columns</a></li>
+                                                                <li><a href="../store/category.html">Shop Grid 3 Columns</a></li>
                                                                 <li><a href="category-4cols.html">Shop Grid 4 Columns</a></li>
                                                                 <li><a href="category-market.html"><span>Shop Market<span class="tip tip-new">New</span></span></a></li>
                                                             </ul>
@@ -306,10 +307,10 @@
                                                             </ul>
                                                             <div class="menu-title">Shop Pages</div><!-- End .menu-title -->
                                                             <ul>
-                                                                <li><a href="cart.html">Cart</a></li>
-                                                                <li><a href="checkout.html">Checkout</a></li>
-                                                                <li><a href="wishlist.html">Wishlist</a></li>
-                                                                <li><a href="dashboard.html">My Account</a></li>
+                                                                <li><a href="../cart/cart.html">Cart</a></li>
+                                                                <li><a href="../cart/checkout.html">Checkout</a></li>
+                                                                <li><a href="../cart/wishlist.html">Wishlist</a></li>
+                                                                <li><a href="../users/dashboard.html">My Account</a></li>
                                                                 <li><a href="#">Lookbook</a></li>
                                                             </ul>
                                                         </div><!-- End .col-md-6 -->
@@ -319,7 +320,7 @@
 
                                             <div class="col-md-4">
                                                 <div class="banner banner-overlay">
-                                                    <a href="category.html" class="banner banner-menu">
+                                                    <a href="../store/category.html" class="banner banner-menu">
                                                         <img src="{% static 'images/menu/banner-1.jpg' %}" alt="Banner">
 
                                                         <div class="banner-content banner-content-top">
@@ -332,7 +333,7 @@
                                     </div><!-- End .megamenu megamenu-md -->
                                 </li>
                                 <li>
-                                    <a href="product.html" class="sf-with-ul">Product</a>
+                                    <a href="../store/product.html" class="sf-with-ul">Product</a>
 
                                     <div class="megamenu megamenu-sm">
                                         <div class="row no-gutters">
@@ -340,7 +341,7 @@
                                                 <div class="menu-col">
                                                     <div class="menu-title">Product Details</div><!-- End .menu-title -->
                                                     <ul>
-                                                        <li><a href="product.html">Default</a></li>
+                                                        <li><a href="../store/product.html">Default</a></li>
                                                         <li><a href="product-centered.html">Centered</a></li>
                                                         <li><a href="product-extended.html"><span>Extended Info<span class="tip tip-new">New</span></span></a></li>
                                                         <li><a href="product-gallery.html">Gallery</a></li>
@@ -354,7 +355,7 @@
 
                                             <div class="col-md-6">
                                                 <div class="banner banner-overlay">
-                                                    <a href="category.html">
+                                                    <a href="../store/category.html">
                                                         <img src="{% static 'images/menu/banner-2.jpg' %}" alt="Banner">
 
                                                         <div class="banner-content banner-content-bottom">
@@ -371,24 +372,24 @@
 
                                     <ul>
                                         <li>
-                                            <a href="about.html" class="sf-with-ul">About</a>
+                                            <a href="../shared/about.html" class="sf-with-ul">About</a>
 
                                             <ul>
-                                                <li><a href="about.html">About 01</a></li>
+                                                <li><a href="../shared/about.html">About 01</a></li>
                                                 <li><a href="about-2.html">About 02</a></li>
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="contact.html" class="sf-with-ul">Contact</a>
+                                            <a href="../shared/contact.html" class="sf-with-ul">Contact</a>
 
                                             <ul>
-                                                <li><a href="contact.html">Contact 01</a></li>
+                                                <li><a href="../shared/contact.html">Contact 01</a></li>
                                                 <li><a href="contact-2.html">Contact 02</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="login.html">Login</a></li>
-                                        <li><a href="faq.html">FAQs</a></li>
-                                        <li><a href="404.html">Error 404</a></li>
+                                        <li><a href="../users/login.html">Login</a></li>
+                                        <li><a href="../shared/faq.html">FAQs</a></li>
+                                        <li><a href="../shared/404.html">Error 404</a></li>
                                         <li><a href="coming-soon.html">Coming Soon</a></li>
                                     </ul>
                                 </li>
@@ -476,11 +477,11 @@
                                 <ul class="compare-products">
                                     <li class="compare-product">
                                         <a href="#" class="btn-remove" title="Remove Product"><i class="icon-close"></i></a>
-                                        <h4 class="compare-product-title"><a href="product.html">Blue Night Dress</a></h4>
+                                        <h4 class="compare-product-title"><a href="../store/product.html">Blue Night Dress</a></h4>
                                     </li>
                                     <li class="compare-product">
                                         <a href="#" class="btn-remove" title="Remove Product"><i class="icon-close"></i></a>
-                                        <h4 class="compare-product-title"><a href="product.html">White Long Skirt</a></h4>
+                                        <h4 class="compare-product-title"><a href="../store/product.html">White Long Skirt</a></h4>
                                     </li>
                                 </ul>
 
@@ -502,7 +503,7 @@
                                     <div class="product">
                                         <div class="product-cart-details">
                                             <h4 class="product-title">
-                                                <a href="product.html">Beige knitted elastic runner shoes</a>
+                                                <a href="../store/product.html">Beige knitted elastic runner shoes</a>
                                             </h4>
 
                                             <span class="cart-product-info">
@@ -512,7 +513,7 @@
                                         </div><!-- End .product-cart-details -->
 
                                         <figure class="product-image-container">
-                                            <a href="product.html" class="product-image">
+                                            <a href="../store/product.html" class="product-image">
                                                 <img src="{% static 'images/products/cart/product-1.jpg' %}" alt="product">
                                             </a>
                                         </figure>
@@ -522,7 +523,7 @@
                                     <div class="product">
                                         <div class="product-cart-details">
                                             <h4 class="product-title">
-                                                <a href="product.html">Blue utility pinafore denim dress</a>
+                                                <a href="../store/product.html">Blue utility pinafore denim dress</a>
                                             </h4>
 
                                             <span class="cart-product-info">
@@ -532,7 +533,7 @@
                                         </div><!-- End .product-cart-details -->
 
                                         <figure class="product-image-container">
-                                            <a href="product.html" class="product-image">
+                                            <a href="../store/product.html" class="product-image">
                                                 <img src="{% static 'images/products/cart/product-2.jpg' %}" alt="product">
                                             </a>
                                         </figure>
@@ -547,8 +548,8 @@
                                 </div><!-- End .dropdown-cart-total -->
 
                                 <div class="dropdown-cart-action">
-                                    <a href="cart.html" class="btn btn-primary">View Cart</a>
-                                    <a href="checkout.html" class="btn btn-outline-primary-2"><span>Checkout</span><i class="icon-long-arrow-right"></i></a>
+                                    <a href="../cart/cart.html" class="btn btn-primary">View Cart</a>
+                                    <a href="../cart/checkout.html" class="btn btn-outline-primary-2"><span>Checkout</span><i class="icon-long-arrow-right"></i></a>
                                 </div><!-- End .dropdown-cart-total -->
                             </div><!-- End .dropdown-menu -->
                         </div><!-- End .cart-dropdown -->
@@ -560,215 +561,330 @@
         <main class="main">
         	<div class="page-header text-center" style="background-image: url('assets/images/page-header-bg.jpg')">
         		<div class="container">
-        			<h1 class="page-title">F.A.Q<span>Pages</span></h1>
+        			<h1 class="page-title">Blog Classic<span>Blog</span></h1>
         		</div><!-- End .container -->
         	</div><!-- End .page-header -->
-            <nav aria-label="breadcrumb" class="breadcrumb-nav">
+            <nav aria-label="breadcrumb" class="breadcrumb-nav mb-3">
                 <div class="container">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                        <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">FAQ</li>
+                        <li class="breadcrumb-item"><a href="../store/index.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="#">Blog</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Classic</li>
                     </ol>
                 </div><!-- End .container -->
             </nav><!-- End .breadcrumb-nav -->
 
             <div class="page-content">
                 <div class="container">
-                	<h2 class="title text-center mb-3">Shipping Information</h2><!-- End .title -->
-        			<div class="accordion accordion-rounded" id="accordion-1">
-					    <div class="card card-box card-sm bg-light">
-					        <div class="card-header" id="heading-1">
-					            <h2 class="card-title">
-					                <a role="button" data-toggle="collapse" href="#collapse-1" aria-expanded="true" aria-controls="collapse-1">
-					                    How will my parcel be delivered?
-					                </a>
-					            </h2>
-					        </div><!-- End .card-header -->
-					        <div id="collapse-1" class="collapse show" aria-labelledby="heading-1" data-parent="#accordion-1">
-					            <div class="card-body">
-					                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis. Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi. 
-					            </div><!-- End .card-body -->
-					        </div><!-- End .collapse -->
-					    </div><!-- End .card -->
+                	<div class="row">
+                		<div class="col-lg-9">
+                            <article class="entry">
+                                <figure class="entry-media">
+                                    <a href="single.html">
+                                        <img src="{% static 'images/blog/post-1.jpg' %}" alt="image desc">
+                                    </a>
+                                </figure><!-- End .entry-media -->
 
-					    <div class="card card-box card-sm bg-light">
-					        <div class="card-header" id="heading-2">
-					            <h2 class="card-title">
-					                <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
-					                    Do I pay for delivery?
-					                </a>
-					            </h2>
-					        </div><!-- End .card-header -->
-					        <div id="collapse-2" class="collapse" aria-labelledby="heading-2" data-parent="#accordion-1">
-					            <div class="card-body">
-					                Ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. 
-					            </div><!-- End .card-body -->
-					        </div><!-- End .collapse -->
-					    </div><!-- End .card -->
+                                <div class="entry-body">
+                                    <div class="entry-meta">
+                                        <span class="entry-author">
+                                            by <a href="#">John Doe</a>
+                                        </span>
+                                        <span class="meta-separator">|</span>
+                                        <a href="#">Nov 22, 2018</a>
+                                        <span class="meta-separator">|</span>
+                                        <a href="#">2 Comments</a>
+                                    </div><!-- End .entry-meta -->
 
-					    <div class="card card-box card-sm bg-light">
-					        <div class="card-header" id="heading-3">
-					            <h2 class="card-title">
-					                <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
-					                    Will I be charged customs fees?
-					                </a>
-					            </h2>
-					        </div><!-- End .card-header -->
-					        <div id="collapse-3" class="collapse" aria-labelledby="heading-3" data-parent="#accordion-1">
-					            <div class="card-body">
-					                Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. 
-					            </div><!-- End .card-body -->
-					        </div><!-- End .collapse -->
-					    </div><!-- End .card -->
+                                    <h2 class="entry-title">
+                                        <a href="single.html">Cras ornare tristique elit.</a>
+                                    </h2><!-- End .entry-title -->
 
-					    <div class="card card-box card-sm bg-light">
-					        <div class="card-header" id="heading-4">
-					            <h2 class="card-title">
-					                <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-4" aria-expanded="false" aria-controls="collapse-4">
-					                    My item has become faulty
-					                </a>
-					            </h2>
-					        </div><!-- End .card-header -->
-					        <div id="collapse-4" class="collapse" aria-labelledby="heading-4" data-parent="#accordion-1">
-					            <div class="card-body">
-					                Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. 
-					            </div><!-- End .card-body -->
-					        </div><!-- End .collapse -->
-					    </div><!-- End .card -->
-					</div><!-- End .accordion -->
+                                    <div class="entry-cats">
+                                        in <a href="#">Lifestyle</a>,
+                                        <a href="#">Shopping</a>
+                                    </div><!-- End .entry-cats -->
 
-                	<h2 class="title text-center mb-3">Orders and Returns</h2><!-- End .title -->
-        			<div class="accordion accordion-rounded" id="accordion-2">
-					    <div class="card card-box card-sm bg-light">
-					        <div class="card-header" id="heading2-1">
-					            <h2 class="card-title">
-					                <a class="collapsed" role="button" data-toggle="collapse" href="#collapse2-1" aria-expanded="false" aria-controls="collapse2-1">
-					                    Tracking my order
-					                </a>
-					            </h2>
-					        </div><!-- End .card-header -->
-					        <div id="collapse2-1" class="collapse" aria-labelledby="heading2-1" data-parent="#accordion-2">
-					            <div class="card-body">
-					                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum.
-					            </div><!-- End .card-body -->
-					        </div><!-- End .collapse -->
-					    </div><!-- End .card -->
+                                    <div class="entry-content">
+                                        <p>Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Suspendisse potenti. Sed egestas, ante et vulputate volutpat, uctus metus libero eu augue.</p>
+                                        <a href="single.html" class="read-more">Continue Reading</a>
+                                    </div><!-- End .entry-content -->
+                                </div><!-- End .entry-body -->
+                            </article><!-- End .entry -->
 
-					    <div class="card card-box card-sm bg-light">
-					        <div class="card-header" id="heading2-2">
-					            <h2 class="card-title">
-					                <a class="collapsed" role="button" data-toggle="collapse" href="#collapse2-2" aria-expanded="false" aria-controls="collapse2-2">
-					                    I haven’t received my order
-					                </a>
-					            </h2>
-					        </div><!-- End .card-header -->
-					        <div id="collapse2-2" class="collapse" aria-labelledby="heading2-2" data-parent="#accordion-2">
-					            <div class="card-body">
-					                Ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. 
-					            </div><!-- End .card-body -->
-					        </div><!-- End .collapse -->
-					    </div><!-- End .card -->
+                            <article class="entry">
+                                <figure class="entry-media entry-video">
+                                    <a href="single.html">
+                                        <img src="{% static 'images/blog/post-2.jpg' %}" alt="image desc">
+                                    </a>
+                                </figure><!-- End .entry-media -->
 
-					    <div class="card card-box card-sm bg-light">
-					        <div class="card-header" id="heading2-3">
-					            <h2 class="card-title">
-					                <a class="collapsed" role="button" data-toggle="collapse" href="#collapse2-3" aria-expanded="false" aria-controls="collapse2-3">
-					                    How can I return an item?
-					                </a>
-					            </h2>
-					        </div><!-- End .card-header -->
-					        <div id="collapse2-3" class="collapse" aria-labelledby="heading2-3" data-parent="#accordion-2">
-					            <div class="card-body">
-					                Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. 
-					            </div><!-- End .card-body -->
-					        </div><!-- End .collapse -->
-					    </div><!-- End .card -->
-					</div><!-- End .accordion -->
+                                <div class="entry-body">
+                                    <div class="entry-meta">
+                                        <span class="entry-author">
+                                            by <a href="#">John Doe</a>
+                                        </span>
+                                        <span class="meta-separator">|</span>
+                                        <a href="#">Nov 21, 2018</a>
+                                        <span class="meta-separator">|</span>
+                                        <a href="#">0 Comments</a>
+                                    </div><!-- End .entry-meta -->
 
-                	<h2 class="title text-center mb-3">Payments</h2><!-- End .title -->
-                	<div class="accordion accordion-rounded" id="accordion-3">
-					    <div class="card card-box card-sm bg-light">
-					        <div class="card-header" id="heading3-1">
-					            <h2 class="card-title">
-					                <a class="collapsed" role="button" data-toggle="collapse" href="#collapse3-1" aria-expanded="false" aria-controls="collapse3-1">
-					                    What payment types can I use?
-					                </a>
-					            </h2>
-					        </div><!-- End .card-header -->
-					        <div id="collapse3-1" class="collapse" aria-labelledby="heading3-1" data-parent="#accordion-3">
-					            <div class="card-body">
-					                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum.
-					            </div><!-- End .card-body -->
-					        </div><!-- End .collapse -->
-					    </div><!-- End .card -->
+                                    <h2 class="entry-title">
+                                        <a href="single.html">Vivamus vestibulum ntulla necante.</a>
+                                    </h2><!-- End .entry-title -->
 
-					    <div class="card card-box card-sm bg-light">
-					        <div class="card-header" id="heading3-2">
-					            <h2 class="card-title">
-					                <a class="collapsed" role="button" data-toggle="collapse" href="#collapse3-2" aria-expanded="false" aria-controls="collapse3-2">
-					                    Can I pay by Gift Card?
-					                </a>
-					            </h2>
-					        </div><!-- End .card-header -->
-					        <div id="collapse3-2" class="collapse" aria-labelledby="heading3-2" data-parent="#accordion-3">
-					            <div class="card-body">
-					                Ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. 
-					            </div><!-- End .card-body -->
-					        </div><!-- End .collapse -->
-					    </div><!-- End .card -->
+                                    <div class="entry-cats">
+                                        in <a href="#">Lifestyle</a>
+                                    </div><!-- End .entry-cats -->
 
-					    <div class="card card-box card-sm bg-light">
-					        <div class="card-header" id="heading3-3">
-					            <h2 class="card-title">
-					                <a class="collapsed" role="button" data-toggle="collapse" href="#collapse3-3" aria-expanded="false" aria-controls="collapse3-3">
-					                    I can't make a payment
-					                </a>
-					            </h2>
-					        </div><!-- End .card-header -->
-					        <div id="collapse3-3" class="collapse" aria-labelledby="heading3-3" data-parent="#accordion-3">
-					            <div class="card-body">
-					                Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. 
-					            </div><!-- End .card-body -->
-					        </div><!-- End .collapse -->
-					    </div><!-- End .card -->
+                                    <div class="entry-content">
+                                        <p>Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum eturna.</p>
+                                        <a href="single.html" class="read-more">Continue Reading</a>
+                                    </div><!-- End .entry-content -->
+                                </div><!-- End .entry-body -->
+                            </article><!-- End .entry -->
 
-					    <div class="card card-box card-sm bg-light">
-					        <div class="card-header" id="heading3-4">
-					            <h2 class="card-title">
-					                <a class="collapsed" role="button" data-toggle="collapse" href="#collapse3-4" aria-expanded="false" aria-controls="collapse3-4">
-					                    Has my payment gone through?
-					                </a>
-					            </h2>
-					        </div><!-- End .card-header -->
-					        <div id="collapse3-4" class="collapse" aria-labelledby="heading3-4" data-parent="#accordion-3">
-					            <div class="card-body">
-					                Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. 
-					            </div><!-- End .card-body -->
-					        </div><!-- End .collapse -->
-					    </div><!-- End .card -->
-					</div><!-- End .accordion -->
+                            <article class="entry">
+                                <figure class="entry-media">
+                                    <div class="owl-carousel owl-simple owl-light owl-nav-inside" data-toggle="owl">
+                                        <a href="single.html">
+                                            <img src="{% static 'images/blog/post-3.jpg' %}" alt="image desc">
+                                        </a>
+                                        <a href="single.html">
+                                            <img src="{% static 'images/blog/post-2.jpg' %}" alt="image desc">
+                                        </a>
+                                    </div><!-- End .owl-carousel -->
+                                </figure><!-- End .entry-media -->
+
+                                <div class="entry-body">
+                                    <div class="entry-meta">
+                                        <span class="entry-author">
+                                            by <a href="#">John Doe</a>
+                                        </span>
+                                        <span class="meta-separator">|</span>
+                                        <a href="#">Nov 18, 2018</a>
+                                        <span class="meta-separator">|</span>
+                                        <a href="#">3 Comments</a>
+                                    </div><!-- End .entry-meta -->
+
+                                    <h2 class="entry-title">
+                                        <a href="single.html">Utaliquam sollicitudin leo.</a>
+                                    </h2><!-- End .entry-title -->
+
+                                    <div class="entry-cats">
+                                        in <a href="#">Fashion</a>,
+                                        <a href="#">Lifestyle</a>
+                                    </div><!-- End .entry-cats -->
+
+                                    <div class="entry-content">
+                                        <p>Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Suspendisse potenti. Sed egestas, ante et vulputate volutpat, uctus metus libero eu augue. </p>
+                                        <a href="single.html" class="read-more">Continue Reading</a>
+                                    </div><!-- End .entry-content -->
+                                </div><!-- End .entry-body -->
+                            </article><!-- End .entry -->
+
+                            <article class="entry">
+                                <figure class="entry-media">
+                                    <a href="single.html">
+                                        <img src="{% static 'images/blog/post-4.jpg' %}" alt="image desc">
+                                    </a>
+                                </figure><!-- End .entry-media -->
+
+                                <div class="entry-body">
+                                    <div class="entry-meta">
+                                        <span class="entry-author">
+                                            by <a href="#">Jane Doe</a>
+                                        </span>
+                                        <span class="meta-separator">|</span>
+                                        <a href="#">Nov 15, 2018</a>
+                                        <span class="meta-separator">|</span>
+                                        <a href="#">4 Comments</a>
+                                    </div><!-- End .entry-meta -->
+
+                                    <h2 class="entry-title">
+                                        <a href="single.html">Fusce pellentesque suscipit.</a>
+                                    </h2><!-- End .entry-title -->
+
+                                    <div class="entry-cats">
+                                        in <a href="#">Travel</a>
+                                    </div><!-- End .entry-cats -->
+
+                                    <div class="entry-content">
+                                        <p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas auguae, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</p>
+                                        <a href="single.html" class="read-more">Continue Reading</a>
+                                    </div><!-- End .entry-content -->
+                                </div><!-- End .entry-body -->
+                            </article><!-- End .entry -->
+
+                            <article class="entry">
+                                <figure class="entry-media">
+                                    <a href="single.html">
+                                        <img src="{% static 'images/blog/post-5.jpg' %}" alt="image desc">
+                                    </a>
+                                </figure><!-- End .entry-media -->
+
+                                <div class="entry-body">
+                                    <div class="entry-meta">
+                                        <span class="entry-author">
+                                            by <a href="#">John Doe</a>
+                                        </span>
+                                        <span class="meta-separator">|</span>
+                                        <a href="#">Nov 11, 2018</a>
+                                        <span class="meta-separator">|</span>
+                                        <a href="#">2 Comments</a>
+                                    </div><!-- End .entry-meta -->
+
+                                    <h2 class="entry-title">
+                                        <a href="single.html">Aenean dignissim pellentesque felis.</a>
+                                    </h2><!-- End .entry-title -->
+
+                                    <div class="entry-cats">
+                                        in <a href="#">Travel</a>,
+                                        <a href="#">Hobbies</a>
+                                    </div><!-- End .entry-cats -->
+
+                                    <div class="entry-content">
+                                        <p>Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus. Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. </p>
+                                        <a href="single.html" class="read-more">Continue Reading</a>
+                                    </div><!-- End .entry-content -->
+                                </div><!-- End .entry-body -->
+                            </article><!-- End .entry -->
+
+
+                			<nav aria-label="Page navigation">
+							    <ul class="pagination">
+							        <li class="page-item disabled">
+							            <a class="page-link page-link-prev" href="#" aria-label="Previous" tabindex="-1" aria-disabled="true">
+							                <span aria-hidden="true"><i class="icon-long-arrow-left"></i></span>Prev
+							            </a>
+							        </li>
+							        <li class="page-item active" aria-current="page"><a class="page-link" href="#">1</a></li>
+							        <li class="page-item"><a class="page-link" href="#">2</a></li>
+							        <li class="page-item">
+							            <a class="page-link page-link-next" href="#" aria-label="Next">
+							                Next <span aria-hidden="true"><i class="icon-long-arrow-right"></i></span>
+							            </a>
+							        </li>
+							    </ul>
+							</nav>
+                		</div><!-- End .col-lg-9 -->
+
+                		<aside class="col-lg-3">
+                			<div class="sidebar">
+                				<div class="widget widget-search">
+                                    <h3 class="widget-title">Search</h3><!-- End .widget-title -->
+
+                                    <form action="#">
+                                        <label for="ws" class="sr-only">Search in blog</label>
+                                        <input type="search" class="form-control" name="ws" id="ws" placeholder="Search in blog" required>
+                                        <button type="submit" class="btn"><i class="icon-search"></i><span class="sr-only">Search</span></button>
+                                    </form>
+                				</div><!-- End .widget -->
+
+                                <div class="widget widget-cats">
+                                    <h3 class="widget-title">Categories</h3><!-- End .widget-title -->
+
+                                    <ul>
+                                        <li><a href="#">Lifestyle<span>3</span></a></li>
+                                        <li><a href="#">Shopping<span>3</span></a></li>
+                                        <li><a href="#">Fashion<span>1</span></a></li>
+                                        <li><a href="#">Travel<span>3</span></a></li>
+                                        <li><a href="#">Hobbies<span>2</span></a></li>
+                                    </ul>
+                                </div><!-- End .widget -->
+
+                                <div class="widget">
+                                    <h3 class="widget-title">Popular Posts</h3><!-- End .widget-title -->
+
+                                    <ul class="posts-list">
+                                        <li>
+                                            <figure>
+                                                <a href="#">
+                                                    <img src="{% static 'images/blog/sidebar/post-1.jpg' %}" alt="post">
+                                                </a>
+                                            </figure>
+
+                                            <div>
+                                                <span>Nov 22, 2018</span>
+                                                <h4><a href="#">Aliquam tincidunt mauris eurisus.</a></h4>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <figure>
+                                                <a href="#">
+                                                    <img src="{% static 'images/blog/sidebar/post-2.jpg' %}" alt="post">
+                                                </a>
+                                            </figure>
+
+                                            <div>
+                                                <span>Nov 19, 2018</span>
+                                                <h4><a href="#">Cras ornare tristique elit.</a></h4>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <figure>
+                                                <a href="#">
+                                                    <img src="{% static 'images/blog/sidebar/post-3.jpg' %}" alt="post">
+                                                </a>
+                                            </figure>
+
+                                            <div>
+                                                <span>Nov 12, 2018</span>
+                                                <h4><a href="#">Vivamus vestibulum ntulla nec ante.</a></h4>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <figure>
+                                                <a href="#">
+                                                    <img src="{% static 'images/blog/sidebar/post-4.jpg' %}" alt="post">
+                                                </a>
+                                            </figure>
+
+                                            <div>
+                                                <span>Nov 25, 2018</span>
+                                                <h4><a href="#">Donec quis dui at dolor  tempor interdum.</a></h4>
+                                            </div>
+                                        </li>
+                                    </ul><!-- End .posts-list -->
+                                </div><!-- End .widget -->
+
+                                <div class="widget widget-banner-sidebar">
+                                    <div class="banner-sidebar-title">ad box 280 x 280</div><!-- End .ad-title -->
+                                    
+                                    <div class="banner-sidebar banner-overlay">
+                                        <a href="#">
+                                            <img src="{% static 'images/blog/sidebar/banner.jpg' %}" alt="banner">
+                                        </a>
+                                    </div><!-- End .banner-ad -->
+                                </div><!-- End .widget -->
+
+                                <div class="widget">
+                                    <h3 class="widget-title">Browse Tags</h3><!-- End .widget-title -->
+
+                                    <div class="tagcloud">
+                                        <a href="#">fashion</a>
+                                        <a href="#">style</a>
+                                        <a href="#">women</a>
+                                        <a href="#">photography</a>
+                                        <a href="#">travel</a>
+                                        <a href="#">shopping</a>
+                                        <a href="#">hobbies</a>
+                                    </div><!-- End .tagcloud -->
+                                </div><!-- End .widget -->
+
+                                <div class="widget widget-text">
+                                    <h3 class="widget-title">About Blog</h3><!-- End .widget-title -->
+
+                                    <div class="widget-text-content">
+                                        <p>Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, pulvinar nunc sapien ornare nisl.</p>
+                                    </div><!-- End .widget-text-content -->
+                                </div><!-- End .widget -->
+                			</div><!-- End .sidebar -->
+                		</aside><!-- End .col-lg-3 -->
+                	</div><!-- End .row -->
                 </div><!-- End .container -->
             </div><!-- End .page-content -->
-
-            <div class="cta cta-display bg-image pt-4 pb-4" style="background-image: url(assets/images/backgrounds/cta/bg-7.jpg);">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-md-10 col-lg-9 col-xl-7">
-                            <div class="row no-gutters flex-column flex-sm-row align-items-sm-center">
-                                <div class="col">
-                                    <h3 class="cta-title text-white">If You Have More Questions</h3><!-- End .cta-title -->
-                                    <p class="cta-desc text-white">Quisque volutpat mattis eros</p><!-- End .cta-desc -->
-                                </div><!-- End .col -->
-
-                                <div class="col-auto">
-                                    <a href="contact.html" class="btn btn-outline-white"><span>CONTACT US</span><i class="icon-long-arrow-right"></i></a>
-                                </div><!-- End .col-auto -->
-                            </div><!-- End .row no-gutters -->
-                        </div><!-- End .col-md-10 col-lg-9 -->
-                    </div><!-- End .row -->
-                </div><!-- End .container -->
-            </div><!-- End .cta -->
         </main><!-- End .main -->
 
         <footer class="footer">
@@ -795,11 +911,11 @@
 	            				<h4 class="widget-title">Useful Links</h4><!-- End .widget-title -->
 
 	            				<ul class="widget-list">
-	            					<li><a href="about.html">About Molla</a></li>
+	            					<li><a href="../shared/about.html">About Molla</a></li>
 	            					<li><a href="#">How to shop on Molla</a></li>
 	            					<li><a href="#">FAQ</a></li>
-	            					<li><a href="contact.html">Contact us</a></li>
-	            					<li><a href="login.html">Log in</a></li>
+	            					<li><a href="../shared/contact.html">Contact us</a></li>
+	            					<li><a href="../users/login.html">Log in</a></li>
 	            				</ul><!-- End .widget-list -->
 	            			</div><!-- End .widget -->
 	            		</div><!-- End .col-sm-6 col-lg-3 -->
@@ -825,7 +941,7 @@
 
 	            				<ul class="widget-list">
 	            					<li><a href="#">Sign In</a></li>
-	            					<li><a href="cart.html">View Cart</a></li>
+	            					<li><a href="../cart/cart.html">View Cart</a></li>
 	            					<li><a href="#">My Wishlist</a></li>
 	            					<li><a href="#">Track My Order</a></li>
 	            					<li><a href="#">Help</a></li>
@@ -864,7 +980,7 @@
             <nav class="mobile-nav">
                 <ul class="mobile-menu">
                     <li class="active">
-                        <a href="index.html">Home</a>
+                        <a href="../store/index.html">Home</a>
 
                         <ul>
                             <li><a href="index-1.html">01 - furniture store</a></li>
@@ -890,30 +1006,30 @@
                             <li><a href="index-21.html">21 - sport store</a></li>
                             <li><a href="index-22.html">22 - tools store</a></li>
                             <li><a href="index-23.html">23 - fashion left navigation store</a></li>
-                            <li><a href="home.html">24 - extreme sport store</a></li>
+                            <li><a href="../shared/home.html">24 - extreme sport store</a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="category.html">Shop</a>
+                        <a href="../store/category.html">Shop</a>
                         <ul>
                             <li><a href="category-list.html">Shop List</a></li>
                             <li><a href="category-2cols.html">Shop Grid 2 Columns</a></li>
-                            <li><a href="category.html">Shop Grid 3 Columns</a></li>
+                            <li><a href="../store/category.html">Shop Grid 3 Columns</a></li>
                             <li><a href="category-4cols.html">Shop Grid 4 Columns</a></li>
                             <li><a href="category-boxed.html"><span>Shop Boxed No Sidebar<span class="tip tip-hot">Hot</span></span></a></li>
                             <li><a href="category-fullwidth.html">Shop Fullwidth No Sidebar</a></li>
                             <li><a href="product-category-boxed.html">Product Category Boxed</a></li>
                             <li><a href="product-category-fullwidth.html"><span>Product Category Fullwidth<span class="tip tip-new">New</span></span></a></li>
-                            <li><a href="cart.html">Cart</a></li>
-                            <li><a href="checkout.html">Checkout</a></li>
-                            <li><a href="wishlist.html">Wishlist</a></li>
+                            <li><a href="../cart/cart.html">Cart</a></li>
+                            <li><a href="../cart/checkout.html">Checkout</a></li>
+                            <li><a href="../cart/wishlist.html">Wishlist</a></li>
                             <li><a href="#">Lookbook</a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="product.html" class="sf-with-ul">Product</a>
+                        <a href="../store/product.html" class="sf-with-ul">Product</a>
                         <ul>
-                            <li><a href="product.html">Default</a></li>
+                            <li><a href="../store/product.html">Default</a></li>
                             <li><a href="product-centered.html">Centered</a></li>
                             <li><a href="product-extended.html"><span>Extended Info<span class="tip tip-new">New</span></span></a></li>
                             <li><a href="product-gallery.html">Gallery</a></li>
@@ -927,24 +1043,24 @@
                         <a href="#">Pages</a>
                         <ul>
                             <li>
-                                <a href="about.html">About</a>
+                                <a href="../shared/about.html">About</a>
 
                                 <ul>
-                                    <li><a href="about.html">About 01</a></li>
+                                    <li><a href="../shared/about.html">About 01</a></li>
                                     <li><a href="about-2.html">About 02</a></li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="contact.html">Contact</a>
+                                <a href="../shared/contact.html">Contact</a>
 
                                 <ul>
-                                    <li><a href="contact.html">Contact 01</a></li>
+                                    <li><a href="../shared/contact.html">Contact 01</a></li>
                                     <li><a href="contact-2.html">Contact 02</a></li>
                                 </ul>
                             </li>
-                            <li><a href="login.html">Login</a></li>
-                            <li><a href="faq.html">FAQs</a></li>
-                            <li><a href="404.html">Error 404</a></li>
+                            <li><a href="../users/login.html">Login</a></li>
+                            <li><a href="../shared/faq.html">FAQs</a></li>
+                            <li><a href="../shared/404.html">Error 404</a></li>
                             <li><a href="coming-soon.html">Coming Soon</a></li>
                         </ul>
                     </li>
@@ -1146,5 +1262,5 @@
 </body>
 
 
-<!-- molla/faq.html  22 Nov 2019 10:04:04 GMT -->
+<!-- molla/blog.html  22 Nov 2019 10:04:10 GMT -->
 </html>
